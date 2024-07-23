@@ -20,5 +20,11 @@ npm install
 npm run start:dev
 ```
 
+6. Ejecutar los endpoints (dejo archivo para importar en postman):
+```
+Stock-insight.postman_collection.json
+```
+
+
 ## Stack usado
 * Nest

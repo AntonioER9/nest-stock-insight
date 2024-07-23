@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "6bf0034c-911d-451c-a5a1-5c8af8128408",
+		"name": "Stock-insight",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6594174"
+	},
+	"item": [
+		{
+			"name": "findDailyHigherPriceBySymbol",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/stock/AAPL",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"stock",
+						"AAPL"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findDailyHighestAveragePrice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/stock/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"stock",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
